@@ -1,0 +1,23 @@
+body{
+    background: url("../img/patt.png");
+}
+.backwhite{
+    box-shadow: 2px 3px 5px #000;
+    background: #ffffff;
+}
+.margin-top{
+    margin-top: 30px;
+}
+.border-bottom{
+    border-bottom: 2px solid #c34914;
+}
+.main-color{
+    color: #9c3a10;
+}
+@media (max-width: 780px) {
+    .col-md-5,.col-xs-12{
+        margin-right:0px;
+        margin-left: 10px;
+        padding-right: 15px !important;
+    }
+}
